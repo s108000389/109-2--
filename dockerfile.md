@@ -31,6 +31,7 @@ public static void main(String[] args) {
 	}
 }
 ```
+
 # python
 ### Dockerfile
 ```
@@ -53,4 +54,33 @@ print('Hello World!')
 ```
 Flask
 ```
-# 
+
+# node.ja
+### dockerfile
+```
+FROM node:8.9-alpine
+
+EXPOSE 80
+
+COPY . .
+
+ENTRYPOINT ["node","node.js"]
+```
+### node.js
+```
+const http = require('http');
+
+const port = 80;
+
+const server = http.createServer((req, res) => {
+
+ res.statusCode = 200;
+
+ res.setHeader('Content-Type', 'text/plain');
+
+ res.end('Hello World !');
+
+})
+
+server.listen(port);
+```
