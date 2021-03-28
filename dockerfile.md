@@ -45,3 +45,12 @@ RUN pip install -r requirements.txt
 EXPOSE 5000
 CMD ["python3", "/app/main.py"]
 ```
+### main.py
+```
+print('Hello World!')
+```
+### requirement.txt
+```
+Flask
+```
+# 
