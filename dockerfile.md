@@ -1,4 +1,4 @@
-## ppt [dockerfile.pptx](https://github.com/s108000389/109-2--/files/6217626/dockerfile.pptx)
+# ppt [dockerfile.pptx](https://github.com/s108000389/109-2--/files/6217626/dockerfile.pptx)
 
 # java
 ### Dockerfile
@@ -31,5 +31,22 @@ public static void main(String[] args) {
 	}
 }
 ```
-## python
+# python
 ### Dockerfile
+```
+FROM python:3.8.5
+
+
+RUN mkdir /app
+
+WORKDIR /app
+
+ADD . /app/
+
+RUN pip install -r requirements.txt
+
+
+EXPOSE 5000
+
+CMD ["python3", "/app/main.py"]
+```
