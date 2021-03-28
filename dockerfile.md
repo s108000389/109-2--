@@ -55,7 +55,7 @@ print('Hello World!')
 Flask
 ```
 
-# node.ja
+# node.js
 ### dockerfile
 ```
 FROM node:8.9-alpine
