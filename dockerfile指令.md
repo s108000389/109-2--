@@ -1,5 +1,3 @@
-## ppt [dockerfile.pptx](https://github.com/s108000389/109-2--/files/6217613/dockerfile.pptx)
-
 ## docker build
 ```
 docker build -t 名稱 .
