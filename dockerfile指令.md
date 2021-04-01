@@ -6,6 +6,8 @@ docker build -t 名稱 .
 ```
 docker run 名稱
 docker run image_id
+docker run --rm hello-world
+--rm 參數，當容器終止時會自動刪除
 ```
 ## Docker 移除停用指令
 ```
