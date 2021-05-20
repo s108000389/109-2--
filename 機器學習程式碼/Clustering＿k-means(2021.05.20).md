@@ -1,3 +1,4 @@
+```
 print(__doc__)
 
 # Author: Phil Roth <mr.phil.roth@gmail.com>
@@ -51,3 +52,4 @@ plt.scatter(X_filtered[:, 0], X_filtered[:, 1], c=y_pred)
 plt.title("Unevenly Sized Blobs")
 
 plt.show()
+```
